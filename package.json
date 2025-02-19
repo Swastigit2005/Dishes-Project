@@ -1,0 +1,21 @@
+{
+  "name": "recipe-finder-app",
+  "version": "1.0.0",
+  "description": "A simple recipe finder app that fetches recipes based on user-input ingredients.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "recipe",
+    "finder",
+    "app",
+    "ingredients"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #ffffff !important; /* Change text color to white */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #ff0000 !important; /* Change header color to bold red */
+    color: #ffffff !important;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000000 !important; /* Ensure input text is visible */
+}
+
+button {
+    padding: 10px 15px;
+    background: #e8491d !important;
+    color: #ffffff !important;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #c0392b !important;
+}
+
+.recipe-list {
+    margin-top: 20px;
+}
+
+.recipe {
+    background: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #000000 !important; /* Ensure recipe text is visible */
+}
+
+#example-searches {
+    text-align: left; /* Align example searches to the left */
+    margin-left: 10%; /* Add some left margin */
+}
